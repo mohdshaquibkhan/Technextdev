@@ -48,15 +48,15 @@ export default function Hero() {
           {/* Left */}
           <div className="space-y-3 sm:space-y-4 text-left order-2 md:order-1">
             <p className="uppercase tracking-widest text-sm sm:text-base">
-              Go for Advertising
+             Think Digital
             </p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
-              Think Digital
+              Reach Global
             </h2>
             <p className="text-gray-200 text-sm sm:text-base md:text-lg">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised.
+             Unlock your brand’s full potential with smart, data-driven campaigns
+              that turn clicks into loyal customers. From social buzz to full-scale
+               add strategies, we make your business unmissable online.
             </p>
           </div>
 
@@ -88,13 +88,10 @@ export default function Hero() {
           {/* Right */}
           <div className="text-left space-y-4 order-3">
             <p className="text-gray-200 text-sm sm:text-base md:text-lg">
-              There Are Many Variations Of Passages Of Lorem Ipsum Available,
-              But The Majority Have Suffered Alteration In Some Form, By
-              Injected.
+              Join thousands of brands growing faster with our AI-powered marketing tools and creative experts.
+              Consistency, creativity, and conversion — all in one place.
             </p>
-            <div className="flex items-center gap-2">
-              <span className="text-green-400 text-sm">Trustpilot</span>
-            </div>
+            
           </div>
         </div>
       </div>

@@ -1,8 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import companyVideo from "../assets/Business Meeting.mp4"
+import { useNavigate } from "react-router-dom";
+
+
+
 
 export default function AboutCompany() {
+   const navigate = useNavigate();
+
+
   return (
     <section className="px-6 py-16 bg-purple-50 relative overflow-hidden">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -74,7 +81,9 @@ export default function AboutCompany() {
           </div>
 
           {/* CTA Button */}
-          <button className="mt-8 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-full flex items-center gap-2 shadow-md transition">
+          <button 
+          onClick={() => navigate("/landing")}
+          className="mt-8 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-full flex items-center gap-2 shadow-md transition">
             EXPLORE MORE <span className="text-lg">↗</span>
           </button>
         </div>
